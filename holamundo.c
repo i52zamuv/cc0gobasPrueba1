@@ -2,7 +2,9 @@
 
 int main(int argc, char *argv[])
 {
-  printf("Hola Mundo\n");
+  char c[100] = "Hola mundo";
+
+  printf("%s\n", strcat(c, ", soy i52gobas") );
   return 0;
 }
 
